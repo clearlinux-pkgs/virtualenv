@@ -4,7 +4,7 @@
 #
 Name     : virtualenv
 Version  : 13.1.2
-Release  : 9
+Release  : 10
 URL      : https://pypi.python.org/packages/source/v/virtualenv/virtualenv-13.1.2.tar.gz
 Source0  : https://pypi.python.org/packages/source/v/virtualenv/virtualenv-13.1.2.tar.gz
 Summary  : Virtual Python Environment builder
@@ -59,7 +59,7 @@ python3 setup.py build -b py3 install --root=%{buildroot}
 %defattr(-,root,root,-)
 /usr/bin/virtualenv
 /usr/bin/virtualenv-2.7
-/usr/bin/virtualenv-3.4
+/usr/bin/virtualenv-3.5
 
 %files python
 %defattr(-,root,root,-)
