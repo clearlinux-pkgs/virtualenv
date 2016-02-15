@@ -4,7 +4,7 @@
 #
 Name     : virtualenv
 Version  : 13.1.2
-Release  : 10
+Release  : 11
 URL      : https://pypi.python.org/packages/source/v/virtualenv/virtualenv-13.1.2.tar.gz
 Source0  : https://pypi.python.org/packages/source/v/virtualenv/virtualenv-13.1.2.tar.gz
 Summary  : Virtual Python Environment builder
