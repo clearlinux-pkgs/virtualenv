@@ -1,6 +1,5 @@
 # This file contains recursive sources that require this package
 Babel
-CNTK
 Cheetah
 ConfigArgParse
 Cython
@@ -12,6 +11,7 @@ LVM2
 Mako
 Markdown
 MarkupSafe
+ModemManager
 MySQL-python
 NetworkManager
 OpenSP
@@ -52,9 +52,11 @@ argcomplete
 argparse
 asn1crypto
 astroid
+at-spi2-atk
 at-spi2-core
 atk
 atomicwrites
+attrs
 audit
 autofs
 awscli
@@ -114,6 +116,7 @@ dconf
 deap
 decorator
 diffoscope
+dnf
 dnspython
 docker
 docker-py
@@ -138,6 +141,7 @@ fontsproto
 fs
 funcsigs
 functools32
+fuse
 futures
 garcon
 gcr
@@ -150,17 +154,22 @@ geocode-glib
 gevent
 gimp
 git
+glances
 glib
 gmime
 gnome-autoar
+gnome-backgrounds
 gnome-bluetooth
+gnome-calendar
 gnome-desktop
 gnome-doc-utils
+gnome-font-viewer
 gnome-online-accounts
 gnome-panel
 gnome-session
 gnome-shell
 gnome-terminal
+gnome-tweak-tool
 gnutls
 gobject-introspection
 google-apitools
@@ -210,6 +219,7 @@ jedi
 jedi-vim
 jmespath
 json-glib
+jsoncpp
 jsonschema
 jupyter
 jupyter-nbgallery
@@ -244,6 +254,7 @@ libgnome-keyring
 libgsystem
 libgtop
 libgudev
+libgusb
 libgweather
 libidn
 libjpeg-turbo
@@ -328,6 +339,7 @@ pandas
 pandocfilters
 pango
 paramiko
+parso
 passlib
 patchutils
 pbr
@@ -384,6 +396,7 @@ python-mock
 python-multilib
 python-pkgconfig
 python-subunit
+python-systemd
 python-tappy
 python-toml
 python-urwid
@@ -426,6 +439,7 @@ spice
 spice-gtk
 spice-protocol
 sqlparse
+sshfs
 subunit
 sure
 swig
@@ -442,7 +456,6 @@ testresources
 testscenarios
 testtools
 tflearn
-tig
 tigervnc
 tornado
 totem
@@ -450,6 +463,7 @@ totem-pl-parser
 tox
 tqdm
 traceback2
+tracker
 traitlets
 typing
 tzlocal
@@ -486,3 +500,4 @@ xproto
 xtrans
 yasm
 yum-metadata-parser
+zstd

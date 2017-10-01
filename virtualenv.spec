@@ -6,7 +6,7 @@
 #
 Name     : virtualenv
 Version  : 15.1.0
-Release  : 28
+Release  : 29
 URL      : http://pypi.debian.net/virtualenv/virtualenv-15.1.0.tar.gz
 Source0  : http://pypi.debian.net/virtualenv/virtualenv-15.1.0.tar.gz
 Source99 : http://pypi.debian.net/virtualenv/virtualenv-15.1.0.tar.gz.asc
@@ -15,6 +15,7 @@ Group    : Development/Tools
 License  : MIT
 Requires: virtualenv-bin
 Requires: virtualenv-legacypython
+Requires: virtualenv-python3
 Requires: virtualenv-python
 BuildRequires : pbr
 BuildRequires : pip
@@ -45,9 +46,18 @@ legacypython components for the virtualenv package.
 Summary: python components for the virtualenv package.
 Group: Default
 Requires: virtualenv-legacypython
+Requires: virtualenv-python3
 
 %description python
 python components for the virtualenv package.
+
+
+%package python3
+Summary: python3 components for the virtualenv package.
+Group: Default
+
+%description python3
+python3 components for the virtualenv package.
 
 
 %prep
@@ -58,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1505266765
+export SOURCE_DATE_EPOCH=1506873760
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
@@ -68,7 +78,7 @@ export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 PYTHONPATH=%{buildroot}/usr/lib/python3.6/site-packages python3 setup.py test
 %install
-export SOURCE_DATE_EPOCH=1505266765
+export SOURCE_DATE_EPOCH=1506873760
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
@@ -88,5 +98,8 @@ echo ----[ mark ]----
 /usr/lib/python2*/*
 
 %files python
+%defattr(-,root,root,-)
+
+%files python3
 %defattr(-,root,root,-)
 /usr/lib/python3*/*
