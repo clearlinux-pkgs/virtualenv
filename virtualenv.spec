@@ -6,7 +6,7 @@
 #
 Name     : virtualenv
 Version  : 15.1.0
-Release  : 32
+Release  : 33
 URL      : http://pypi.debian.net/virtualenv/virtualenv-15.1.0.tar.gz
 Source0  : http://pypi.debian.net/virtualenv/virtualenv-15.1.0.tar.gz
 Source99 : http://pypi.debian.net/virtualenv/virtualenv-15.1.0.tar.gz.asc
