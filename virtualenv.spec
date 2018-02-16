@@ -6,7 +6,7 @@
 #
 Name     : virtualenv
 Version  : 15.1.0
-Release  : 33
+Release  : 34
 URL      : http://pypi.debian.net/virtualenv/virtualenv-15.1.0.tar.gz
 Source0  : http://pypi.debian.net/virtualenv/virtualenv-15.1.0.tar.gz
 Source99 : http://pypi.debian.net/virtualenv/virtualenv-15.1.0.tar.gz.asc
@@ -46,7 +46,6 @@ legacypython components for the virtualenv package.
 %package python
 Summary: python components for the virtualenv package.
 Group: Default
-Requires: virtualenv-legacypython
 Requires: virtualenv-python3
 
 %description python
@@ -70,7 +69,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1507180769
+export SOURCE_DATE_EPOCH=1518746548
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
@@ -80,7 +79,7 @@ export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 PYTHONPATH=%{buildroot}/usr/lib/python3.6/site-packages python3 setup.py test
 %install
-export SOURCE_DATE_EPOCH=1507180769
+export SOURCE_DATE_EPOCH=1518746548
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
