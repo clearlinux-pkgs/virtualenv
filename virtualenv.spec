@@ -4,7 +4,7 @@
 #
 Name     : virtualenv
 Version  : 15.2.0
-Release  : 40
+Release  : 41
 URL      : http://pypi.debian.net/virtualenv/virtualenv-15.2.0.tar.gz
 Source0  : http://pypi.debian.net/virtualenv/virtualenv-15.2.0.tar.gz
 Summary  : Virtual Python Environment builder
