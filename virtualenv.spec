@@ -4,7 +4,7 @@
 #
 Name     : virtualenv
 Version  : 15.2.0
-Release  : 41
+Release  : 42
 URL      : http://pypi.debian.net/virtualenv/virtualenv-15.2.0.tar.gz
 Source0  : http://pypi.debian.net/virtualenv/virtualenv-15.2.0.tar.gz
 Summary  : Virtual Python Environment builder
@@ -12,19 +12,15 @@ Group    : Development/Tools
 License  : MIT
 Requires: virtualenv-bin
 Requires: virtualenv-python3
+Requires: virtualenv-license
 Requires: virtualenv-python
-BuildRequires : attrs-python
 BuildRequires : pbr
 BuildRequires : pip
 BuildRequires : pluggy-python
-BuildRequires : py-python
 BuildRequires : pytest-python
-
 BuildRequires : python-mock-python
 BuildRequires : python3-dev
 BuildRequires : setuptools
-BuildRequires : six
-BuildRequires : six-python
 
 %description
 ==========
@@ -32,18 +28,18 @@ BuildRequires : six-python
 %package bin
 Summary: bin components for the virtualenv package.
 Group: Binaries
+Requires: virtualenv-license
 
 %description bin
 bin components for the virtualenv package.
 
 
-%package legacypython
-Summary: legacypython components for the virtualenv package.
+%package license
+Summary: license components for the virtualenv package.
 Group: Default
-Requires: python-core
 
-%description legacypython
-legacypython components for the virtualenv package.
+%description license
+license components for the virtualenv package.
 
 
 %package python
@@ -72,20 +68,14 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1528575085
-python2 setup.py build -b py2
+export SOURCE_DATE_EPOCH=1529114161
 python3 setup.py build -b py3
 
-%check
-export http_proxy=http://127.0.0.1:9/
-export https_proxy=http://127.0.0.1:9/
-export no_proxy=localhost,127.0.0.1,0.0.0.0
-PYTHONPATH=%{buildroot}/usr/lib/python3.6/site-packages python3 setup.py test
 %install
-export SOURCE_DATE_EPOCH=1528575085
 rm -rf %{buildroot}
-python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
-python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
+mkdir -p %{buildroot}/usr/share/doc/virtualenv
+cp LICENSE.txt %{buildroot}/usr/share/doc/virtualenv/LICENSE.txt
+python3 -tt setup.py build -b py3 install --root=%{buildroot}
 echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :
 echo ----[ mark ]----
@@ -97,9 +87,9 @@ echo ----[ mark ]----
 %defattr(-,root,root,-)
 /usr/bin/virtualenv
 
-%files legacypython
+%files license
 %defattr(-,root,root,-)
-/usr/lib/python2*/*
+/usr/share/doc/virtualenv/LICENSE.txt
 
 %files python
 %defattr(-,root,root,-)
