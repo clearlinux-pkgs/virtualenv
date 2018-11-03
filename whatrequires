@@ -63,6 +63,7 @@ ironic
 iso8601
 isodate
 jaraco.functools
+jdcal
 jedi
 josepy
 jupyter-notebook-gist
@@ -98,10 +99,12 @@ pytest-xdist
 python-hwinfo
 python-perf
 python-swiftclient
+python-tabulate
 python-tappy
 python-toml
 python-troveclient
 python-zeep
+python-zstandard
 python2-mod_wsgi
 pyudev
 pywbem
