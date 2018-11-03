@@ -4,7 +4,7 @@
 #
 Name     : virtualenv
 Version  : 16.1.0
-Release  : 52
+Release  : 54
 URL      : https://files.pythonhosted.org/packages/4e/8b/75469c270ac544265f0020aa7c4ea925c5284b23e445cf3aa8b99f662690/virtualenv-16.1.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/4e/8b/75469c270ac544265f0020aa7c4ea925c5284b23e445cf3aa8b99f662690/virtualenv-16.1.0.tar.gz
 Summary  : Virtual Python Environment builder
@@ -14,7 +14,6 @@ Requires: virtualenv-bin = %{version}-%{release}
 Requires: virtualenv-license = %{version}-%{release}
 Requires: virtualenv-python = %{version}-%{release}
 Requires: virtualenv-python3 = %{version}-%{release}
-Requires: Sphinx
 BuildRequires : buildreq-distutils3
 BuildRequires : pluggy-python
 
@@ -64,7 +63,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1541263053
+export SOURCE_DATE_EPOCH=1541264245
 python3 setup.py build
 
 %install
