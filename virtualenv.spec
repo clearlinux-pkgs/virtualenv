@@ -4,7 +4,7 @@
 #
 Name     : virtualenv
 Version  : 16.1.0
-Release  : 54
+Release  : 55
 URL      : https://files.pythonhosted.org/packages/4e/8b/75469c270ac544265f0020aa7c4ea925c5284b23e445cf3aa8b99f662690/virtualenv-16.1.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/4e/8b/75469c270ac544265f0020aa7c4ea925c5284b23e445cf3aa8b99f662690/virtualenv-16.1.0.tar.gz
 Summary  : Virtual Python Environment builder
