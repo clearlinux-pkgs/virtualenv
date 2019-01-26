@@ -1,6 +1,7 @@
 # This file contains recursive sources that require this package
 CherryPy
 Flask
+MarkupSafe
 Paste
 PyJWT
 PyMySQL
@@ -26,7 +27,6 @@ bleach
 blockdiag
 borgbackup
 boto3
-cached-property
 cachetools
 ceph
 ceph-deploy
@@ -38,7 +38,6 @@ cloudpickle
 cmd2
 compute-image-packages
 coverage
-cursive
 defusedxml
 distro
 django_compressor
@@ -63,6 +62,7 @@ ironic
 iso8601
 isodate
 jaraco.functools
+jarn.viewdoc
 jdcal
 jedi
 josepy
@@ -79,15 +79,22 @@ mypy
 neon
 nose-parameterized
 ntlm-auth
+numpy-stl
 os-xenapi
+oslo.upgradecheck
 packaging
 parso
 patsy
+pdns
+pdns-recursor
 performance
 persistent
+piglit
 portend
 pyOpenSSL
+pybtex
 pydot_ng
+pyhs100
 pytest-cov
 pytest-forked
 pytest-repeat
@@ -96,6 +103,7 @@ pytest-runner
 pytest-sugar
 pytest-timeout
 pytest-xdist
+python-graphviz
 python-hwinfo
 python-perf
 python-swiftclient
@@ -103,18 +111,22 @@ python-tabulate
 python-tappy
 python-toml
 python-troveclient
+python-utils
 python-zeep
 python-zstandard
 python2-mod_wsgi
 pyudev
-pywbem
 recommonmark
 repoze.lru
 repoze.who
 requests-toolbelt
+retry
 scikit-build
+seqdiag
 serpent
+soupsieve
 sphinx-feature-classification
+sphinxcontrib-programoutput
 sphinxcontrib-websupport
 stestr
 sure
