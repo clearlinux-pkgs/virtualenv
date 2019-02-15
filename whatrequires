@@ -6,6 +6,7 @@ Paste
 PyJWT
 PyMySQL
 PyNaCl
+PySocks
 Pyro4
 SQLAlchemy
 Sphinx
@@ -43,6 +44,7 @@ distro
 django_compressor
 dnf
 dnf-plugins-core
+dockerpty
 dogpile.cache
 execnet
 flake8-deprecated
@@ -97,6 +99,7 @@ pydot_ng
 pyhs100
 pytest-cov
 pytest-forked
+pytest-localserver
 pytest-repeat
 pytest-rerunfailures
 pytest-runner
@@ -115,6 +118,7 @@ python-utils
 python-zeep
 python-zstandard
 python2-mod_wsgi
+pytorch
 pyudev
 recommonmark
 repoze.lru
@@ -130,9 +134,11 @@ sphinxcontrib-programoutput
 sphinxcontrib-websupport
 stestr
 sure
+tblib
 tempora
 tensorboard
 testresources
+texttable
 tox
 waitress
 zVMCloudConnector
