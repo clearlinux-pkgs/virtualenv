@@ -4,7 +4,7 @@
 #
 Name     : virtualenv
 Version  : 16.4.0
-Release  : 57
+Release  : 59
 URL      : https://files.pythonhosted.org/packages/51/aa/c395a6e6eaaedfa5a04723b6446a1df783b16cca6fec66e671cede514688/virtualenv-16.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/51/aa/c395a6e6eaaedfa5a04723b6446a1df783b16cca6fec66e671cede514688/virtualenv-16.4.0.tar.gz
 Summary  : Virtual Python Environment builder
@@ -14,15 +14,13 @@ Requires: virtualenv-bin = %{version}-%{release}
 Requires: virtualenv-license = %{version}-%{release}
 Requires: virtualenv-python = %{version}-%{release}
 Requires: virtualenv-python3 = %{version}-%{release}
-Requires: Sphinx
-Requires: sphinx_rtd_theme
 BuildRequires : buildreq-distutils3
 BuildRequires : pluggy-python
 
 %description
+virtualenv
 ==========
-        
-        A tool for creating isolated 'virtual' python environments.
+A tool for creating isolated 'virtual' python environments.
 
 %package bin
 Summary: bin components for the virtualenv package.
@@ -67,12 +65,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1550190939
+export SOURCE_DATE_EPOCH=1550638104
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
 %install
-export MAKEFLAGS=%{?_smp_mflags}
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/virtualenv
 cp LICENSE.txt %{buildroot}/usr/share/package-licenses/virtualenv/LICENSE.txt
