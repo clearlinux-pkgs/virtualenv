@@ -18,6 +18,7 @@ aiohttp
 alembic
 ansible
 apipkg
+argon2_cffi
 asv
 attrs
 backports.weakref
