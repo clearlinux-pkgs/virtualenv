@@ -39,6 +39,7 @@ click
 cloudpickle
 cmd2
 compute-image-packages
+configparser
 coverage
 defusedxml
 distro
