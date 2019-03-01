@@ -97,6 +97,7 @@ persistent
 piglit
 portend
 pyOpenSSL
+pyblake2
 pybtex
 pydot_ng
 pyhs100
@@ -134,6 +135,7 @@ serpent
 soupsieve
 sphinx-feature-classification
 sphinxcontrib-programoutput
+sphinxcontrib-spelling
 sphinxcontrib-websupport
 stestr
 sure
