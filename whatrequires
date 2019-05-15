@@ -17,6 +17,7 @@ Werkzeug
 aiohttp
 alembic
 ansible
+apache-libcloud
 apipkg
 argon2_cffi
 asv
