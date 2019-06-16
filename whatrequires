@@ -1,13 +1,13 @@
 # This file contains recursive sources that require this package
 CherryPy
 Flask
+Mako
 MarkupSafe
 Paste
 PyJWT
 PyMySQL
 PyNaCl
 PySocks
-Pyro4
 SQLAlchemy
 Sphinx
 WSGIProxy2
@@ -40,6 +40,7 @@ click
 cloudpickle
 cmd2
 compute-image-packages
+conda
 configparser
 cotyledon
 coverage
@@ -80,6 +81,7 @@ hgtools
 html5lib
 httpretty
 icalendar
+importlib_metadata
 ironic
 iso8601
 isodate
@@ -88,6 +90,7 @@ jarn.viewdoc
 jdcal
 jedi
 josepy
+junit-xml
 jupyter-notebook-gist
 keystone
 khal
@@ -101,7 +104,6 @@ more-itertools
 mypy
 natsort
 neon
-nltk
 nose-parameterized
 ntlm-auth
 numpy-stl
@@ -167,6 +169,7 @@ sphinxcontrib-websupport
 stestr
 sure
 tblib
+tempest
 tempora
 tensorboard
 testresources
@@ -175,8 +178,10 @@ todoist
 toml
 tox
 waitress
+webcolors
 zVMCloudConnector
 zc.lockfile
+zipp
 zope.event
 zope.exceptions
 zope.hookable
