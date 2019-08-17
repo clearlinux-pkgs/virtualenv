@@ -123,6 +123,7 @@ pyblake2
 pybtex
 pydot_ng
 pyhs100
+pynvim
 pytest-cov
 pytest-forked
 pytest-localserver
