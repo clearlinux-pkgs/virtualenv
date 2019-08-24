@@ -180,6 +180,7 @@ toml
 tox
 waitress
 webcolors
+wheel
 zVMCloudConnector
 zc.lockfile
 zipp
