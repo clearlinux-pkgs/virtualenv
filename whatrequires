@@ -103,7 +103,6 @@ mod_wsgi
 more-itertools
 mypy
 natsort
-neon
 nose-parameterized
 ntlm-auth
 numpy-stl
@@ -153,6 +152,7 @@ requests-toolbelt
 retry
 scikit-build
 segno
+semantic_version
 seqdiag
 serpent
 snitun
