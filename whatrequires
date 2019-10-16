@@ -1,4 +1,5 @@
 # This file contains recursive sources that require this package
+Cheetah3
 CherryPy
 Flask
 Mako
@@ -8,13 +9,13 @@ PyJWT
 PyMySQL
 PyNaCl
 PySocks
+Pygments
 SQLAlchemy
 Sphinx
 WSGIProxy2
 WebOb
 WebTest
 Werkzeug
-aiohttp
 alembic
 ansible
 apache-libcloud
@@ -45,21 +46,6 @@ configparser
 cotyledon
 coverage
 defusedxml
-deprecated-MarkupSafe
-deprecated-Sphinx
-deprecated-WebOb
-deprecated-Werkzeug
-deprecated-attrs
-deprecated-boto3
-deprecated-configparser
-deprecated-coverage
-deprecated-glances
-deprecated-html5lib
-deprecated-mido
-deprecated-pyOpenSSL
-deprecated-sphinxcontrib-websupport
-deprecated-zope.testing
-deprecated-zope.testrunner
 distro
 django_compressor
 dnf
@@ -71,7 +57,6 @@ fastnumbers
 flake8-deprecated
 flake8-docstrings
 fonttools
-gabbi
 glance
 glances
 greenlet
@@ -142,14 +127,13 @@ python-troveclient
 python-utils
 python-zeep
 python-zstandard
-python2-mod_wsgi
-pytorch
 pyudev
 recommonmark
 repoze.lru
 repoze.who
 requests-toolbelt
 retry
+retype
 scikit-build
 segno
 semantic_version
@@ -173,6 +157,7 @@ tblib
 tempest
 tempora
 tensorboard
+tensorflow-serving
 testresources
 texttable
 todoist
@@ -184,6 +169,8 @@ wheel
 zVMCloudConnector
 zc.lockfile
 zipp
+zope.deferredimport
+zope.deprecation
 zope.event
 zope.exceptions
 zope.hookable
