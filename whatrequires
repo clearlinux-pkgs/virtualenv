@@ -119,6 +119,7 @@ pytest-timeout
 pytest-xdist
 python-graphviz
 python-hwinfo
+python-ldap
 python-perf
 python-swiftclient
 python-tabulate
@@ -160,6 +161,7 @@ tensorboard
 tensorflow-serving
 testresources
 texttable
+tldextract
 todoist
 toml
 tox
