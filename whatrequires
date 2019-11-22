@@ -17,7 +17,6 @@ WebOb
 WebTest
 Werkzeug
 alembic
-ansible
 apache-libcloud
 apipkg
 argon2_cffi
@@ -82,10 +81,12 @@ khal
 lazy
 lazy-object-proxy
 libarchive-c
+libvirt-python
 matplotlib
 mido
 mod_wsgi
 more-itertools
+munch
 mypy
 natsort
 nose-parameterized
@@ -106,6 +107,7 @@ pyOpenSSL
 pyblake2
 pybtex
 pydot_ng
+pyelftools
 pyhs100
 pynvim
 pytest-cov
@@ -133,6 +135,7 @@ recommonmark
 repoze.lru
 repoze.who
 requests-toolbelt
+responses
 retry
 retype
 scikit-build
