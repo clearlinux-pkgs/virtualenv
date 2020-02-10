@@ -39,7 +39,6 @@ cheroot
 click
 cloudpickle
 cmd2
-compute-image-packages
 conda
 cotyledon
 coverage
@@ -101,6 +100,7 @@ performance
 persistent
 piglit
 portend
+prompt_toolkit
 pyOpenSSL
 pyblake2
 pybtex
