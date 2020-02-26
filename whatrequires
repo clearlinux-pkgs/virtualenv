@@ -96,6 +96,7 @@ parso
 patsy
 pdns
 pdns-recursor
+pep517
 performance
 persistent
 piglit
