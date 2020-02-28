@@ -4,7 +4,7 @@
 #
 Name     : virtualenv
 Version  : 20.0.7
-Release  : 87
+Release  : 88
 URL      : https://files.pythonhosted.org/packages/f7/01/2e69c5b190f8ec553eafcd8b1df9ed79233d9b09420ea71d0070ce9a8e6c/virtualenv-20.0.7.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f7/01/2e69c5b190f8ec553eafcd8b1df9ed79233d9b09420ea71d0070ce9a8e6c/virtualenv-20.0.7.tar.gz
 Summary  : Virtual Python Environment builder
@@ -73,6 +73,7 @@ python components for the virtualenv package.
 Summary: python3 components for the virtualenv package.
 Group: Default
 Requires: python3-core
+Provides: pypi(virtualenv)
 
 %description python3
 python3 components for the virtualenv package.
@@ -87,7 +88,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582747504
+export SOURCE_DATE_EPOCH=1582905266
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
