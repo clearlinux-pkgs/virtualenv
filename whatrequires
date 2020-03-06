@@ -91,7 +91,6 @@ nose-parameterized
 ntlm-auth
 numpy-stl
 os-xenapi
-packaging
 parso
 patsy
 pdns
@@ -100,6 +99,7 @@ pep517
 performance
 persistent
 piglit
+pkginfo
 portend
 prompt_toolkit
 pyOpenSSL
@@ -109,7 +109,9 @@ pydot_ng
 pyelftools
 pyhs100
 pynvim
+pytest-cache
 pytest-cov
+pytest-flake8
 pytest-forked
 pytest-localserver
 pytest-repeat
@@ -130,6 +132,7 @@ python-utils
 python-zeep
 python-zstandard
 pyudev
+readme_renderer
 recommonmark
 repoze.lru
 repoze.who
@@ -165,6 +168,7 @@ tldextract
 todoist
 toml
 tox
+twine
 waitress
 webcolors
 wheel
