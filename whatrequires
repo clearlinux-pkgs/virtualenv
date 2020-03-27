@@ -22,7 +22,6 @@ argon2_cffi
 asv
 attrs
 backports.weakref
-barbican
 bashate
 bcrypt
 bleach
@@ -53,7 +52,6 @@ fastnumbers
 flake8-deprecated
 flake8-docstrings
 fonttools
-glance
 glances
 greenlet
 h5py
