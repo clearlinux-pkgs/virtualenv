@@ -15,7 +15,6 @@ WSGIProxy2
 WebOb
 WebTest
 Werkzeug
-alembic
 apache-libcloud
 apipkg
 argon2_cffi
