@@ -1,5 +1,5 @@
 PKG_NAME := virtualenv
-URL = https://files.pythonhosted.org/packages/ba/d7/8bc2730e8b0505c699880f7ee48515eb22a53f443ebeaad78c92f1949673/virtualenv-20.0.16.tar.gz
+URL = https://files.pythonhosted.org/packages/1c/fc/1bcbb524de8cef189166e7e42c31f411ace373ceacdd77d9a366d13976c6/virtualenv-20.0.17.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
