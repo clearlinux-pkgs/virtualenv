@@ -71,6 +71,7 @@ jarn.viewdoc
 jdcal
 jedi
 josepy
+jsonpickle
 junit-xml
 jupyter-notebook-gist
 keystone
@@ -79,6 +80,7 @@ lazy
 lazy-object-proxy
 libarchive-c
 libvirt-python
+lockfile
 mido
 mod_wsgi
 more-itertools
@@ -105,7 +107,6 @@ pyblake2
 pybtex
 pydot_ng
 pyelftools
-pyhs100
 pynvim
 pyperf
 pytest-cache
@@ -117,14 +118,12 @@ pytest-repeat
 pytest-rerunfailures
 pytest-runner
 pytest-sugar
-pytest-timeout
 pytest-xdist
 python-graphviz
 python-hwinfo
 python-ldap
 python-swiftclient
 python-tabulate
-python-tappy
 python-troveclient
 python-utils
 python-zeep
