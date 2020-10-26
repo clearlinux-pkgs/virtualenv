@@ -9,7 +9,6 @@ PyJWT
 PyMySQL
 PyNaCl
 PySocks
-Pygments
 SQLAlchemy
 Sphinx
 WSGIProxy2
@@ -78,7 +77,6 @@ more-itertools
 mypy
 nose-parameterized
 ntlm-auth
-numpy-stl
 patsy
 pdns
 pdns-recursor
@@ -139,6 +137,7 @@ tldextract
 toml
 tox
 twine
+typeguard
 waitress
 webcolors
 wheel
