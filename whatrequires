@@ -47,9 +47,12 @@ flake8-docstrings
 fonttools
 glances
 greenlet
+h2
 h5py
+hpack
 html5lib
 httpretty
+hyperframe
 icalendar
 importlib_metadata
 iniconfig
@@ -100,6 +103,7 @@ pytest-rerunfailures
 pytest-runner
 pytest-sugar
 pytest-xdist
+python-dotenv
 python-graphviz
 python-hwinfo
 python-utils
