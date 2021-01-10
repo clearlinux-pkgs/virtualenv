@@ -15,6 +15,7 @@ WSGIProxy2
 WebOb
 WebTest
 Werkzeug
+anyio
 apipkg
 appdirs
 argon2-cffi
@@ -56,6 +57,7 @@ hyperframe
 icalendar
 importlib_metadata
 iniconfig
+intelhex
 iso8601
 isodate
 jaraco.classes
