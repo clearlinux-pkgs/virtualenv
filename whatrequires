@@ -24,6 +24,7 @@ attrs
 backports.entry_points_selectable
 backports.weakref
 bcrypt
+black
 bleach
 blockdiag
 borgbackup
@@ -48,6 +49,7 @@ dockerpty
 execnet
 flake8-docstrings
 fonttools
+fsspec
 glances
 greenlet
 h2
