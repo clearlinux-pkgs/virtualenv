@@ -33,7 +33,6 @@ boto3
 cachetools
 ceph
 ceph-deploy
-certbot
 check-manifest
 cheroot
 click
@@ -97,6 +96,7 @@ pep517
 persistent
 piglit
 pkginfo
+platformdirs
 portend
 pre_commit
 prettytable
