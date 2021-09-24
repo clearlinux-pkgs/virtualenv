@@ -110,6 +110,7 @@ pyperf
 pytest-cov
 pytest-forked
 pytest-localserver
+pytest-mock
 pytest-repeat
 pytest-rerunfailures
 pytest-runner
@@ -118,6 +119,7 @@ pytest-xdist
 python-dotenv
 python-graphviz
 python-hwinfo
+python-rpm-packaging
 python-utils
 python-zeep
 python-zstandard
