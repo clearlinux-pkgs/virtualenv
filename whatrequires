@@ -90,6 +90,7 @@ nltk
 nose-parameterized
 ntlm-auth
 patsy
+pbr
 pdns
 pdns-recursor
 pep517
@@ -119,6 +120,7 @@ pytest-xdist
 python-dotenv
 python-graphviz
 python-hwinfo
+python-remoto
 python-rpm-packaging
 python-utils
 python-zeep
@@ -135,6 +137,7 @@ scour
 semantic_version
 seqdiag
 serpent
+setuptools_scm
 singledispatch
 soupsieve
 sphinxcontrib-applehelp
