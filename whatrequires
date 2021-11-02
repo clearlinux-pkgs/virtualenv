@@ -48,6 +48,7 @@ dockerpty
 ecdsa
 elementpath
 execnet
+filelock
 flake8-docstrings
 fonttools
 fsspec
@@ -64,7 +65,6 @@ importlib_resources
 iniconfig
 intelhex
 iso8601
-isodate
 jaraco.classes
 jaraco.collections
 jaraco.functools
@@ -78,7 +78,6 @@ jupyter-notebook-gist
 khal
 knack
 lazy-object-proxy
-libarchive-c
 libvirt-python
 matplotlib
 mido
@@ -124,7 +123,6 @@ python-remoto
 python-rpm-packaging
 python-utils
 python-zeep
-python-zstandard
 pyudev
 pyusb
 readme_renderer
