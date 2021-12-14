@@ -4,7 +4,7 @@
 #
 Name     : virtualenv
 Version  : 20.10.0
-Release  : 148
+Release  : 149
 URL      : https://files.pythonhosted.org/packages/c7/3e/b11275c99dd779e4fc87931f7c82ce93767080249bfa4d7aea7ea748800e/virtualenv-20.10.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c7/3e/b11275c99dd779e4fc87931f7c82ce93767080249bfa4d7aea7ea748800e/virtualenv-20.10.0.tar.gz
 Summary  : Virtual Python Environment builder
